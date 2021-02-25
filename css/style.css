@@ -1,0 +1,262 @@
+html {
+    font-size: 15px;
+}
+
+body {
+    margin: 0;
+
+    font-size: 1rem;
+    line-height: 1.6rem;
+    color: black;
+
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+/* Page
+============*/
+
+
+.page {
+    width: 100%;
+    height: 100vh;
+
+    background-color: #fff;
+}
+
+
+/* Header
+===========*/
+
+.header {
+    display: block;
+    height: 56px;
+    padding: 4px 0;
+
+    background-color: #212529;
+    color: #fff;
+
+
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    display: block;
+    margin-left: -158px;
+    margin-bottom: 6px;
+    float: left;
+}
+
+.brand:hover {
+    cursor: pointer;
+}
+
+
+.logo {
+    display: block;
+    margin-left: -1000px;
+    margin-bottom: 5px;
+
+    font-weight: 600;
+    font-size: 1.5rem;
+
+    float: left;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.header-btn:hover {
+    cursor: pointer;
+}
+
+/* Main
+============*/
+
+.main {
+    background-color: #fff;
+
+    width: 1900px;
+    height: 420px;
+}
+
+/* Content
+============*/
+
+.content {
+    position: relative;
+}
+
+
+.title {
+    display: block;
+    margin-top:115px;
+    text-align: center;
+
+}
+
+.text {
+    margin: 0 auto;
+    margin-bottom: 35px;
+
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2rem;
+
+    width: 546px;
+    height: 90px;
+
+
+}
+
+/* btn
+============*/
+
+.btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+
+
+    position:absolute;
+    left: 350px;
+
+    width: 160px;
+    padding: 10px 12px;
+
+    font-size: 1rem;
+    font-family: inherit;
+
+    background-color: #0d6efd;
+    color: #fff;
+
+    border: 0;
+    border-radius: 5px;
+
+    transition: background 0.2s linear;
+}
+
+.btn:focus {
+    outline: 0;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color:#125ac4;
+    cursor: pointer;
+}
+
+.btn:active {
+    background-color:#073c89;
+}
+
+.btn-2 {
+    position: absolute;
+    right: 160px;
+
+    background-color: #6c757d;
+}
+
+.btn-2:focus {
+    outline: 0;
+}
+
+.btn-2:hover,
+.btn-2:focus{
+    background-color:#4e5358;
+}
+
+.btn-2:active {
+    background-color:#343638;
+}
+
+/* Main-Albom
+=============*/
+
+.sadebar {
+    width: 100%;
+    height: 1000px;
+    margin-top: 220px;
+    margin-bottom: 100px;
+
+    background-color: #f8f9fa;
+    float: left;
+    ;
+}
+
+.block {
+    width: 420px;
+    height: 375px;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 0;
+
+    background-color: #fff;
+
+    float: left;
+    box-shadow: 0 0 5px #333;
+
+}
+
+.block-1 {
+    margin-left: 300px;
+
+}
+
+.block-3 {
+    margin-right: 300px;
+}
+
+.img {
+    width: 420px;
+}
+
+.block-text {
+    margin-left: 15px;
+    margin-right: 20px;
+
+    font-size: 1.2rem;
+}
+
+
+/* footer
+============*/
+
+.footer {
+
+    width: 100%;
+    height: 160px;
+
+    background-color: #fff;
+}
+
+
+
+
+
